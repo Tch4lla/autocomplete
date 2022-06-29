@@ -70,5 +70,5 @@ app.get('/get/:id',async (request,response)=> {
 })
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log('Sever is runnuing')
+    console.log('Server is runnuing')
 })
